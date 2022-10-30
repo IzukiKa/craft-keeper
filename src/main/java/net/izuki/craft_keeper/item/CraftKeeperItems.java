@@ -48,6 +48,8 @@ public class CraftKeeperItems {
             new CavelingMedalItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
     public static final Item CAVELING_PERFUME = registerItem("caveling_perfume",
             new CavelingPerfumeItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
+    public static final Item CAVELING_SKULL = registerItem("caveling_skull",
+            new CavelingSkullItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
     public static final Item GIANT_SQUID_EYE = registerItem("giant_squid_eye",
             new GiantSquidEyeItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
 
