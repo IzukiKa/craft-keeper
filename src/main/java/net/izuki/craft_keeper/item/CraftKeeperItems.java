@@ -28,6 +28,8 @@ public class CraftKeeperItems {
             new BentForkItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
     public static final Item BLACK_BUBBLE_PEARL = registerItem("black_bubble_pearl",
             new BlackBubblePearlItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
+    public static final Item BLOOD_SKULL = registerItem("blood_skull",
+            new BloodSkullItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(CraftKeeperMod.MOD_ID, name), item);
