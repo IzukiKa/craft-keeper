@@ -43,5 +43,8 @@
   "itemGroup.craft_keeper.materials": "Craft Keeper: Materials",
   "itemGroup.craft_keeper.valuables": "Craft Keeper: Valuables",
   "itemGroup.craft_keeper.consumables": "Craft Keeper: Consumables",
-  "itemGroup.craft_keeper.placements": "Craft Keeper: Placements"
+  "itemGroup.craft_keeper.placements": "Craft Keeper: Placements",
+
+  // Keybinds
+  "key.category.craft_keeper.craft_keeper": "Craft Keeper"
 }
