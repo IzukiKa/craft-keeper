@@ -25,9 +25,9 @@ public class GiantSquidEyeItem extends Item {
         if (!world.isClient && hand == Hand.MAIN_HAND) {
             int cooldown = getRandomNumber();
             if (cooldown == 1) {
-                user.sendMessage(Text.literal("The eye stares at you for " + cooldown + " second..."));
+                user.sendMessage(Text.literal("The eye stares at you for " + cooldown + " second..."), true);
             } else {
-                user.sendMessage(Text.literal("The eye stares at you for " + cooldown + " seconds..."));
+                user.sendMessage(Text.literal("The eye stares at you for " + cooldown + " seconds..."), true);
             }
             user.getItemCooldownManager().set(this,20*cooldown);
         }
