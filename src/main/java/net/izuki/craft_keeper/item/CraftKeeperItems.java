@@ -18,6 +18,8 @@ public class CraftKeeperItems {
             new AmberFishEggItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
     public static final Item AMMONITE = registerItem("ammonite",
             new AmmoniteItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
+    public static final Item ANCIENT_GEM_PLATE = registerItem("ancient_gem_plate",
+            new AncientGemPlateItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(CraftKeeperMod.MOD_ID, name), item);
