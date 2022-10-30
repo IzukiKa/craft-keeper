@@ -22,6 +22,8 @@ public class CraftKeeperItems {
             new AncientGemPlateItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
     public static final Item ANTIQUE_BOARD_GAME = registerItem("antique_board_game",
             new AntiqueBoardGameItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
+    public static final Item BALLOON_SPORE = registerItem("balloon_spore",
+            new BalloonSporeItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(CraftKeeperMod.MOD_ID, name), item);
