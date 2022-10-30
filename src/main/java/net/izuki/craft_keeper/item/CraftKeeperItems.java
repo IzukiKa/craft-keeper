@@ -38,6 +38,8 @@ public class CraftKeeperItems {
             new BrokenCoreIdolItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
     public static final Item BUBBLE_PEARL = registerItem("bubble_pearl",
             new BubblePearlItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
+    public static final Item CAVELING_CUP = registerItem("caveling_cup",
+            new CavelingCupItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
     public static final Item GIANT_SQUID_EYE = registerItem("giant_squid_eye",
             new GiantSquidEyeItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
 
