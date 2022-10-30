@@ -34,6 +34,8 @@ public class CraftKeeperItems {
             new BlueKelpItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
     public static final Item BONE_CREOLE = registerItem("bone_creole",
             new BoneCreoleItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
+    public static final Item BROKEN_CORE_IDOL = registerItem("broken_core_idol",
+            new BoneCreoleItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
     public static final Item GIANT_SQUID_EYE = registerItem("giant_squid_eye",
             new GiantSquidEyeItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
 
