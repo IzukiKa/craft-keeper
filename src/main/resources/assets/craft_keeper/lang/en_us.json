@@ -27,6 +27,12 @@
 
   "block.craft_keeper.stone_ground": "Stone Ground",
 
-  "itemGroup.craft_keeper.craft_keeper": "Craft Keeper",
-  "itemGroup.craft_keeper.valuables": "Craft Keeper: Valuables"
+  "itemGroup.craft_keeper.foods": "Craft Keeper: Foods",
+  "itemGroup.craft_keeper.tools": "Craft Keeper: Tools",
+  "itemGroup.craft_keeper.combat": "Craft Keeper: Combat",
+  "itemGroup.craft_keeper.accessories": "Craft Keeper: Accessories",
+  "itemGroup.craft_keeper.materials": "Craft Keeper: Materials",
+  "itemGroup.craft_keeper.valuables": "Craft Keeper: Valuables",
+  "itemGroup.craft_keeper.consumables": "Craft Keeper: Consumables",
+  "itemGroup.craft_keeper.placements": "Craft Keeper: Placements"
 }

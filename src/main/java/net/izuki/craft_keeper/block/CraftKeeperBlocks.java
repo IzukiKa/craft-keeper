@@ -15,7 +15,7 @@ import net.minecraft.util.registry.Registry;
 
 public class CraftKeeperBlocks {
     public static final Block STONE_GROUND = registerBlock("stone_ground",
-            new StoneGroundBlock(FabricBlockSettings.of(Material.STONE).strength(4F).requiresTool()), CraftKeeperItemGroups.CRAFT_KEEPER);
+            new StoneGroundBlock(FabricBlockSettings.of(Material.STONE).strength(4F).requiresTool()), CraftKeeperItemGroups.PLACEMENTS);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
