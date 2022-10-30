@@ -10,7 +10,7 @@ import net.minecraft.util.Identifier;
 
 public class CraftKeeperItemGroups {
     public static final ItemGroup FOODS = FabricItemGroupBuilder.build(
-            new Identifier(CraftKeeperMod.MOD_ID, "foods"), () -> new ItemStack(Items.APPLE));
+            new Identifier(CraftKeeperMod.MOD_ID, "foods"), () -> new ItemStack(CraftKeeperItems.MUSHROOM));
     public static final ItemGroup TOOLS = FabricItemGroupBuilder.build(
             new Identifier(CraftKeeperMod.MOD_ID, "tools"), () -> new ItemStack(Items.IRON_PICKAXE));
     public static final ItemGroup COMBAT = FabricItemGroupBuilder.build(

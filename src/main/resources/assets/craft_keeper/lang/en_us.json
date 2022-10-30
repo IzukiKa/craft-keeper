@@ -38,6 +38,9 @@
   "lore.craft_keeper.heart_berry.line2": "refreshes the body.",
   "item.craft_keeper.heart_berry_seed": "§f§lHeart Berry Seed",
   "block.craft_keeper.heart_berry_crop": "§f§lHeart Berry Crop",
+  "item.craft_keeper.mushroom": "§f§lMushroom",
+  "lore.craft_keeper.mushroom.line1": "A small cave mushroom,",
+  "lore.craft_keeper.mushroom.line2": "perfect for a snack on the go.",
 
   // Placeables
   "block.craft_keeper.stone_ground": "Stone Ground",
