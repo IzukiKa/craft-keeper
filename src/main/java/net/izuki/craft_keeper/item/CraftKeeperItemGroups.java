@@ -2,6 +2,7 @@ package net.izuki.craft_keeper.item;
 
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.izuki.craft_keeper.CraftKeeperMod;
+import net.izuki.craft_keeper.block.CraftKeeperBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -23,5 +24,5 @@ public class CraftKeeperItemGroups {
     public static final ItemGroup CONSUMABLES = FabricItemGroupBuilder.build(
             new Identifier(CraftKeeperMod.MOD_ID, "consumables"), () -> new ItemStack(Items.POTION));
     public static final ItemGroup PLACEMENTS = FabricItemGroupBuilder.build(
-            new Identifier(CraftKeeperMod.MOD_ID, "placements"), () -> new ItemStack(Items.OAK_PLANKS));
+            new Identifier(CraftKeeperMod.MOD_ID, "placements"), () -> new ItemStack(CraftKeeperBlocks.STONE_GROUND));
 }
