@@ -22,7 +22,7 @@ public class BlackBubblePearlItem extends Item {
         if (Screen.hasShiftDown()) {
             tooltip.add(Text.literal("A black variant of the bubble").formatted(Formatting.GRAY));
             tooltip.add(Text.literal("bubble pearl, from certain angles it").formatted(Formatting.GRAY));
-            tooltip.add(Text.literal(" appears golden.").formatted(Formatting.GRAY));
+            tooltip.add(Text.literal("appears golden.").formatted(Formatting.GRAY));
         } else {
             tooltip.add(Text.literal("Press SHIFT for more info!").formatted(Formatting.YELLOW));
         }
