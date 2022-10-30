@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.izuki.craft_keeper.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "CraftKeeperMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
