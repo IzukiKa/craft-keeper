@@ -19,14 +19,14 @@ public class AmberFishEggItem extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.literal("Valuable").formatted(Formatting.WHITE));
+        tooltip.add(Text.translatable("lore.craft_keeper.valuable").formatted(Formatting.WHITE));
         if (Screen.hasShiftDown()) {
             tooltip.add(Text.literal("A perfectly preserved fish").formatted(Formatting.GRAY));
             tooltip.add(Text.literal("egg encapsulated in amber.").formatted(Formatting.GRAY));
             tooltip.add(Text.literal("How those two combines is").formatted(Formatting.GRAY));
             tooltip.add(Text.literal("a mystery.").formatted(Formatting.GRAY));
         } else {
-            tooltip.add(Text.literal("Press SHIFT for more info!").formatted(Formatting.YELLOW));
+            tooltip.add(Text.translatable("lore.craft_keeper.more_info").formatted(Formatting.YELLOW));
         }
         super.appendTooltip(stack, world, tooltip, context);
     }

@@ -18,12 +18,16 @@ public class HeartBerryItem extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.literal("Cooking").formatted(Formatting.WHITE));
         if (Screen.hasShiftDown()) {
-            tooltip.add(Text.literal("A sweet, juicy berry that").formatted(Formatting.GRAY));
-            tooltip.add(Text.literal("refreshes the body.").formatted(Formatting.GRAY));
+            tooltip.add(Text.translatable("lore.craft_keeper.when_eaten").formatted(Formatting.GOLD));
+            tooltip.add(Text.literal("§a+ §r9 food").formatted(Formatting.WHITE));
+            tooltip.add(Text.literal("§a+ §r2.8 health every sec for 20 sec").formatted(Formatting.WHITE));
+            tooltip.add(Text.translatable("lore.craft_keeper.cookable").formatted(Formatting.WHITE));
+            tooltip.add(Text.translatable("lore.craft_keeper.heart_berry.line1").formatted(Formatting.GRAY));
+            tooltip.add(Text.translatable("lore.craft_keeper.heart_berry.line2").formatted(Formatting.GRAY));
         } else {
-            tooltip.add(Text.literal("Press SHIFT for more info!").formatted(Formatting.YELLOW));
+            tooltip.add(Text.translatable("lore.craft_keeper.cookable").formatted(Formatting.WHITE));
+            tooltip.add(Text.translatable("lore.craft_keeper.more_info").formatted(Formatting.YELLOW));
         }
         super.appendTooltip(stack, world, tooltip, context);
     }

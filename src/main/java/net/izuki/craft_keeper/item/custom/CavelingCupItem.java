@@ -18,7 +18,7 @@ public class CavelingCupItem extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.literal("Valuable").formatted(Formatting.WHITE));
+        tooltip.add(Text.translatable("lore.craft_keeper.valuable").formatted(Formatting.WHITE));
         if (Screen.hasShiftDown()) {
             tooltip.add(Text.literal("This small drinking that cup").formatted(Formatting.GRAY));
             tooltip.add(Text.literal("must have held many").formatted(Formatting.GRAY));
@@ -26,7 +26,7 @@ public class CavelingCupItem extends Item {
             tooltip.add(Text.literal("still a faint smell of").formatted(Formatting.GRAY));
             tooltip.add(Text.literal("something sweet.").formatted(Formatting.GRAY));
         } else {
-            tooltip.add(Text.literal("Press SHIFT for more info!").formatted(Formatting.YELLOW));
+            tooltip.add(Text.translatable("lore.craft_keeper.more_info").formatted(Formatting.YELLOW));
         }
         super.appendTooltip(stack, world, tooltip, context);
     }

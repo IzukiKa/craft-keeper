@@ -1,5 +1,8 @@
 {
+  "lore.craft_keeper.more_info": "Press SHIFT for more info!",
+
   // Valuables
+  "lore.craft_keeper.valuable": "Valuable",
   "item.craft_keeper.adder_stone": "§7§lAdder Stone",
   "item.craft_keeper.amber_chunk": "§7§lAmber Chunk",
   "item.craft_keeper.amber_fish_egg": "§7§lAmber Fish Egg",
@@ -27,7 +30,12 @@
   "item.craft_keeper.giant_squid_eye": "§7§lGiant Squid Eye",
 
   // Crops and Foods
+  "lore.craft_keeper.when_eaten": "When eaten:",
+  "lore.craft_keeper.cookable": "Can be cooked",
+
   "item.craft_keeper.heart_berry": "§f§lHeart Berry",
+  "lore.craft_keeper.heart_berry.line1": "A sweet, juicy berry that",
+  "lore.craft_keeper.heart_berry.line2": "refreshes the body.",
   "item.craft_keeper.heart_berry_seed": "§f§lHeart Berry Seed",
   "block.craft_keeper.heart_berry_crop": "§f§lHeart Berry Crop",
 
