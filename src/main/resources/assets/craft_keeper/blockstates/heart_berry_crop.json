@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "age=0": { "model": "craft_keeper:block/heart_berry_stage0"},
+    "age=1": { "model": "craft_keeper:block/heart_berry_stage1"},
+    "age=2": { "model": "craft_keeper:block/heart_berry_stage2"},
+    "age=3": { "model": "craft_keeper:block/heart_berry_stage3"}
+  }
+}

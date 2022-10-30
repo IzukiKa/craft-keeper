@@ -1,4 +1,5 @@
 {
+  // Valuables
   "item.craft_keeper.adder_stone": "§7§lAdder Stone",
   "item.craft_keeper.amber_chunk": "§7§lAmber Chunk",
   "item.craft_keeper.amber_fish_egg": "§7§lAmber Fish Egg",
@@ -25,9 +26,16 @@
 
   "item.craft_keeper.giant_squid_eye": "§7§lGiant Squid Eye",
 
+  // Crops and Foods
+  "item.craft_keeper.heart_berry": "§f§lHeart Berry",
+  "item.craft_keeper.heart_berry_seed": "§f§lHeart Berry Seed",
+  "block.craft_keeper.heart_berry_crop": "§f§lHeart Berry Crop",
+
+  // Placeables
   "block.craft_keeper.stone_ground": "Stone Ground",
   "block.craft_keeper.caveling_fireplace": "Caveling Fireplace",
 
+  // Creative Tabs
   "itemGroup.craft_keeper.foods": "Craft Keeper: Foods",
   "itemGroup.craft_keeper.tools": "Craft Keeper: Tools",
   "itemGroup.craft_keeper.combat": "Craft Keeper: Combat",

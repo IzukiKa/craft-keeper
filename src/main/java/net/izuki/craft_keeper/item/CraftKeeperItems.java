@@ -2,12 +2,22 @@ package net.izuki.craft_keeper.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.izuki.craft_keeper.CraftKeeperMod;
+import net.izuki.craft_keeper.block.CraftKeeperBlocks;
 import net.izuki.craft_keeper.item.custom.*;
+import net.minecraft.item.AliasedBlockItem;
+import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class CraftKeeperItems {
+
+    // Register Crops
+    public static final Item HEART_BERRY_SEED = registerItem("heart_berry_seed",
+            new AliasedBlockItem(CraftKeeperBlocks.HEART_BERRY_CROP, new FabricItemSettings().group(CraftKeeperItemGroups.FOODS).maxCount(999)));
+    public static final Item HEART_BERRY = registerItem("heart_berry",
+            new HeartBerryItem(new FabricItemSettings().group(CraftKeeperItemGroups.FOODS)
+                    .food(new FoodComponent.Builder().hunger(9).saturationModifier(9).build()).maxCount(999)));
 
     // Register valuables
     public static final Item ADDER_STONE = registerItem("adder_stone",

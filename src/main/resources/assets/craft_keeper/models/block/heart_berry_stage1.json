@@ -1,0 +1,6 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "craft_keeper:block/heart_berry_stage1"
+  }
+}
