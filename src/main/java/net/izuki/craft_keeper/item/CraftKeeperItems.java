@@ -54,6 +54,8 @@ public class CraftKeeperItems {
             new CeremonialFluteItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
     public static final Item CHIPPED_PLATE = registerItem("chipped_plate",
             new ChippedPlateItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
+    public static final Item CRYSTAL_SPHERE = registerItem("crystal_sphere",
+            new CrystalSphereItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
     public static final Item GIANT_SQUID_EYE = registerItem("giant_squid_eye",
             new GiantSquidEyeItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
 
