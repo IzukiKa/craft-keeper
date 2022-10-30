@@ -20,8 +20,7 @@ public class BrokenCoreIdolItem extends Item {
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         tooltip.add(Text.literal("Valuable").formatted(Formatting.WHITE));
         if (Screen.hasShiftDown()) {
-            tooltip.add(Text.literal("A familiar-looking").formatted(Formatting.GRAY));
-            tooltip.add(Text.literal("object.").formatted(Formatting.GRAY));
+            tooltip.add(Text.literal("A familiar-looking object.").formatted(Formatting.GRAY));
         } else {
             tooltip.add(Text.literal("Press SHIFT for more info!").formatted(Formatting.YELLOW));
         }
