@@ -30,6 +30,8 @@ public class CraftKeeperItems {
             new BlackBubblePearlItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
     public static final Item BLOOD_SKULL = registerItem("blood_skull",
             new BloodSkullItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
+    public static final Item GIANT_SQUID_EYE = registerItem("giant_squid_eye",
+            new GiantSquidEyeItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(CraftKeeperMod.MOD_ID, name), item);
