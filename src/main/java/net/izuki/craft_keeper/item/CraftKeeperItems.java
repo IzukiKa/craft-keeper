@@ -26,6 +26,8 @@ public class CraftKeeperItems {
             new BalloonSporeItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
     public static final Item BENT_FORK = registerItem("bent_fork",
             new BentForkItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
+    public static final Item BLACK_BUBBLE_PEARL = registerItem("black_bubble_pearl",
+            new BlackBubblePearlItem(new FabricItemSettings().group(CraftKeeperItemGroups.VALUABLES).maxCount(999)));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(CraftKeeperMod.MOD_ID, name), item);
