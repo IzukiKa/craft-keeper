@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "craft_keeper:block/caveling_fireplace_lit"},
+    "lit=false": { "model": "craft_keeper:block/caveling_fireplace_unlit"}
+  }
+}

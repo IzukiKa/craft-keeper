@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "craft_keeper:block/caveling_fireplace_unlit"
+  }
+}

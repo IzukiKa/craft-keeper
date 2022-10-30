@@ -3,6 +3,7 @@ package net.izuki.craft_keeper.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.izuki.craft_keeper.CraftKeeperMod;
+import net.izuki.craft_keeper.block.custom.CavelingFireplaceBlock;
 import net.izuki.craft_keeper.block.custom.StoneGroundBlock;
 import net.izuki.craft_keeper.item.CraftKeeperItemGroups;
 import net.minecraft.block.Block;
@@ -16,6 +17,10 @@ import net.minecraft.util.registry.Registry;
 public class CraftKeeperBlocks {
     public static final Block STONE_GROUND = registerBlock("stone_ground",
             new StoneGroundBlock(FabricBlockSettings.of(Material.STONE).strength(4F).requiresTool()), CraftKeeperItemGroups.PLACEMENTS);
+
+    public static final Block CAVELING_FIREPLACE = registerBlock("caveling_fireplace",
+            new CavelingFireplaceBlock(FabricBlockSettings.of(Material.STONE).strength(4F).requiresTool()
+                    .luminance(state -> state.get(CavelingFireplaceBlock.LIT) ? 15 : 0)), CraftKeeperItemGroups.PLACEMENTS);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
