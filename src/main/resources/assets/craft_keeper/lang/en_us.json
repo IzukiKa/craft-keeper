@@ -1,5 +1,7 @@
 {
   "lore.craft_keeper.more_info": "Press SHIFT for more info!",
+  "lore.craft_keeper.health_per_sec": "%d health every sec for %d sec",
+  "lore.craft_keeper.food": "%d food",
 
   // Valuables
   "lore.craft_keeper.valuable": "Valuable",
@@ -39,8 +41,8 @@
   "item.craft_keeper.heart_berry_seed": "Heart Berry Seed",
   "block.craft_keeper.heart_berry_crop": "Heart Berry Crop",
   "item.craft_keeper.mushroom": "Mushroom",
-  "lore.craft_keeper.mushroom.line1": "A small cave mushroom,",
-  "lore.craft_keeper.mushroom.line2": "perfect for a snack on the go.",
+  "lore.craft_keeper.mushroom.line1": "A small cave mushroom, perfect",
+  "lore.craft_keeper.mushroom.line2": "for a snack on the go.",
 
   // Placeables
   "block.craft_keeper.stone_ground": "Stone Ground",

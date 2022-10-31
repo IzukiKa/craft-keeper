@@ -24,8 +24,8 @@ public class HeartBerryItem extends Item {
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         if (Screen.hasShiftDown()) {
             tooltip.add(Text.translatable("lore.craft_keeper.when_eaten").formatted(Formatting.GOLD));
-            tooltip.add(Text.literal("§a+ §r9 food").formatted(Formatting.WHITE));
-            tooltip.add(Text.literal("§a+ §r2.8 health every sec for 20 sec").formatted(Formatting.WHITE));
+            tooltip.add(Text.literal("+ ").formatted(Formatting.GREEN).append(Text.translatable("lore.craft_keeper.food", 9).formatted(Formatting.WHITE)));
+            tooltip.add(Text.literal("+ ").formatted(Formatting.GREEN).append(Text.translatable("lore.craft_keeper.health_per_sec", 2.8, 20).formatted(Formatting.WHITE)));
             tooltip.add(Text.translatable("lore.craft_keeper.cookable").formatted(Formatting.WHITE));
             tooltip.add(Text.translatable("lore.craft_keeper.heart_berry.line1").formatted(Formatting.GRAY));
             tooltip.add(Text.translatable("lore.craft_keeper.heart_berry.line2").formatted(Formatting.GRAY));
