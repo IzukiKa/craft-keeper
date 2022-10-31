@@ -15,6 +15,10 @@ public class CavelingPerfumeItem extends Item {
     public CavelingPerfumeItem(Settings settings) {
         super(settings);
     }
+    @Override
+    public Text getName(ItemStack stack) {
+        return Text.translatable(this.getTranslationKey(stack)).formatted(Formatting.WHITE).formatted(Formatting.BOLD);
+    }
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {

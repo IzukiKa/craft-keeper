@@ -19,6 +19,10 @@ public class GiantSquidEyeItem extends Item {
     public GiantSquidEyeItem(Settings settings) {
         super(settings);
     }
+    @Override
+    public Text getName(ItemStack stack) {
+        return Text.translatable(this.getTranslationKey(stack)).formatted(Formatting.WHITE).formatted(Formatting.BOLD);
+    }
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
